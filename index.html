@@ -1,0 +1,960 @@
+<html>
+
+<head>
+    <title>Subhankar Mishra | CS460 Machine Learning 2023</title>
+    <link href="https://www.niser.ac.in/~smishra/css/smlab.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>SUBHANKAR MISHRA</h1>
+            <h2>ଶୁଭଙ୍କର ମିଶ୍ର</h2>
+        </header>
+        <p>
+            Reader-F, School of Computer Sciences, NISER <br>
+            ପାଠକ-ଏଫ, ସଂଗଣକ ବିଜ୍ଞାନ ବିଦ୍ୟାଳୟ, ନିଷେର <br>
+        </p>
+        <hr /> <br>
+        <div class="item">
+            <h2>CS460/660 - Machine Learning 2023 (2022-23 Even Semester)</h2>
+        </div>
+        <h3>Syllabus</h3>
+        <ul>
+            <li>Learning, Inductive Bias, Features, Labels, Basics of Statistics and Probability</li>
+            <li>Supervised Learning - Some models</li>
+            <li>Ensemble Methods: Bagging, Boosting. Learning Theory</li>
+            <li>Unsupervised Learning - Some models</li>
+            <li>Reinforcement Learning Basics (if time permits)</li>
+        </ul>
+
+        <h3>Expected skills (No mandatory prerequisite)</h3>
+        <ul>
+            <li>Algorithms (CS301 or equivalent)</li>
+            <li>Python</li>
+            <li>Probability and Statistics</li>
+        </ul>
+        <h3>Grading scheme </h3>
+        Grading will be absolute.
+        <ul>
+            <li>Project - 40 marks</li>
+            <li>Assignment - 10 marks</li>
+            <li>Midterm - 10 marks</li>
+            <li>Endterm - 40 marks</li>
+            <li>Total -100 marks</li>
+        </ul>
+        <h3>Lectures</h3>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Week</th>
+                    <th>Lec #</th>
+                    <th>Topic</th>
+                    <th>Slide</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4">Week 1</td>
+                    <td>1</td>
+                    <td>Course Logistics and Introduction</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Generalization</td>
+                    <td rowspan="3"><a
+                            href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec1.pdf">Group1</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Why and when Machine Learning, </td>
+                    <!-- <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec2.pdf">Group1</a></td> -->
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Inductive Learning, Structured Data </td>
+                    <!-- <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec3.pdf">Group2</a></td> -->
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 2</td>
+                    <td>5</td>
+                    <td>Decision Trees</td>
+                    <td rowspan="2"><a
+                            href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec2.pdf">Group2</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Inductive Bias</td>
+                </tr>
+                <tr>
+                    <!-- Jan 6 -->
+
+                    <td>7</td>
+                    <td>Expected Loss, Inductive vs Transductive learning</td>
+                    <td rowspan="2"><a
+                            href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec3.pdf">Group3</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>General approach for Machine Learning </td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 3</td>
+                    <td>9</td>
+                    <td>Types of Machine Learning (Based on Input and Output) </td>
+                    <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec4.pdf">Group4</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Supervised Learning - Linear SVM</td>
+                    <td rowspan="2"><a
+                            href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec5.pdf">Group5</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Supervised Learning - Linear SVM (Continued)</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Linear Regression</td>
+                    <td rowspan="2"><a
+                            href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec6.pdf">Group6</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 4</td>
+                    <td>13</td>
+                    <td>Linear Regression (Continued)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Gradient Descent</td>
+                    <td rowspan="2"><a
+                            href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec7.pdf">Group7</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Gradient Descent (Continued)</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Logistic Regression</td>
+                    <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec8.pdf">Group8</a></td>
+                </tr>
+                <tr>
+                    <td rowspan="1">Week 5 (Jan 30 - Feb 3)</td>
+                    <td></td>
+                    <td>Project Proposal Presentations</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="5">Week 6</td>
+                    <td>-</td>
+                    <td>Quiz - 1 </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Decision Trees - CART </td>
+                    <td rowspan="2"><a
+                            href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec9.pdf">Group9</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Decision Trees - CART - Continued</td>
+
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Decision Trees - ID3</td>
+                    <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec10.pdf">Group10</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>SVM - Hinge Loss</td>
+                    <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec11.pdf">Group11</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 7</td>
+                    <td>20</td>
+                    <td>SVM - Kernel Functions <a
+                            href="https://see.stanford.edu/materials/aimlcs229/cs229-notes3.pdf">CS229 Notes - Andrew
+                            Ng</a></td>
+                    <td rowspan="2"><a
+                            href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec12.pdf">Group12</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>SVM - Kernel Functions - Continued</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>kNN</td>
+                    <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec13.pdf">Group13</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>Gradient Descent - Implementation</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 8</td>
+                    <td>24</td>
+                    <td>Feature Engineering (One-hot encoding, bucketing, normalization, standardisation, missing
+                        features, imbalanced dataset) </td>
+                    <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec14.pdf">Group14</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Model Performance Assessment</td>
+                    <td rowspan="2"><a
+                            href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec15.pdf">Group15</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>Hyperparameter Tuning</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>kNN Implementation</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 9</td>
+                    <td>28</td>
+                    <td> </td>
+                    <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec16.pdf">Group16</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td></td>
+                    <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec17.pdf">Group17</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td></td>
+                    <td><a href="https://www.niser.ac.in/~smishra/teach/cs460/23cs460/lectures/lec18.pdf">Group18</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>SVM Implementation</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1">Week 10,11 (Mar 6 - Mar 17)</td>
+                    <td></td>
+                    <td>Project Midterm Presentations</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1">Week 15,16 (Apr 10 - Apr 21)</td>
+                    <td></td>
+                    <td>Project Final Presentations</td>
+                    <td></td>
+                </tr>
+
+                <!-- <tr>
+                    <td rowspan="4">Week 3</td>
+                    <td>9</td>
+                    <td>Supervised Learning - How it works?</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>How are ML algorithms different? </td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Linear Regression</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Linear Regression and Gradient Descent</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 4</td>
+                    <td>13</td>
+                    <td>Mathematics for ML (Exercises)</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Ananconda and Numpy (Tutorial)</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Scikit Learn Linear Regression (Tutorial)</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Linear Regression with Gradient Descent</td>
+                </tr>
+                <tr>
+                    <td>Week 5 (Sept 6 - Sept 10)</td>
+                    <td>NA</td>
+                    <td>Project Proposal Presentations</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 6</td>
+                    <td>17</td>
+                    <td>Logistic Regression</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Unsupervised algorithm - kMeans Clustering</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>Unsupervised algorithm - DBSCAN Clustering</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>Clustering (Tutorial)</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 7</td>
+                    <td>21</td>
+                    <td>kNN</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Decision Trees - Classification</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>Decision Trees - Regression</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>Decision Tree (Tutorial)</td>
+                </tr>
+                <tr>
+                    <td >Week 7 (Sept 20 - Sept 24)</td>
+                    <td>NA</td>
+                    <td>Project Proposal Presentations</td>
+                <tr>
+                    <td>Week 8, 9 </td>
+                    <td></td>
+                    <td>Midterm</td>
+                </tr>
+                <tr>
+                    <td>Week 10 (Oct 11 - Oct 15)</td>
+                    <td>NA</td>
+                    <td>Project Midway Presentations</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 11</td>
+                    <td>25</td>
+                    <td>Support Vector Machine</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>Support Vector Machine - Kernels</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>Feature Engineering</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>Bias-Variance Tradeoff, Regularization</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">Week 12</td>
+                    <td>29</td>
+                    <td>Model Assessment</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>Perceptron (Convergence)</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>Perceptron Implementation</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>Multi-Layer Perceptron</td>
+                </tr>
+                <tr>
+                    <td>Week 13, 14 (Nov 1 - Nov 12)</td>
+                    <td>NA</td>
+                    <td>Project Final Presentations</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Week 15</td>
+                    <td>33</td>
+                    <td>Ensemble Method - Bagging</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td>Ensemble Method - Boosting</td>
+                </tr>
+                <tr>
+                    <td>35</td>
+                    <td>Unsupervised - Dimensionality Reduction PCA</td>
+                </tr>
+                <tr>
+                    <td>Week 16</td>
+                    <td>NA</td>
+                    <td>End Term</td>
+                </tr> -->
+            </tbody>
+        </table>
+        <hr />
+        <h3>Assignments</h3>
+        <ul>
+            <li>[05] Assign 1: Lecture Note Slides </li>
+            <ul>
+                <li>Same as project group, <a
+                        href="https://www.overleaf.com/latex/templates/elegant-slides/yfqyhpprvdmg">Overleaf</a>
+                    template </li>
+                <li>Cover the content of the class </li>
+                <li>Add additional examples and sample codes</li>
+                <li>Follow the github clone and pull request to update your slides (similar to project submissions)</li>
+                <li>Update: 20 Jan 2023 - Upload both .pdf as well as .zip containing the source for your slides.</li>
+            </ul>
+            <li>[05] </li>
+        </ul>
+        <hr />
+        <!--         
+        <h3>Project</h3>
+        <hr /> -->
+        <h3>Project</h3>
+        A group of 2. Class project must be something new that you did in this semester. Two types of projects are
+        allowed:
+        <ul>
+            <li> Category - 1: You pick/create an interesting (new) dataset, apply best suited one or more well known
+                machine
+                learning algorithms as baselines and extend these baselines in your creative and interesting way. </li>
+            <li> Category - 2: A theoretical project should look at an open question, definite it concretely, look at
+                the literature, design and develop createive and interesting attempts.</li>
+        </ul>
+        Deliverables for reports will be in LaTeX generated pdf. Format should follow <a
+            href="https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles">NeurIPS template</a>. (Update 25 Jan
+        2023 - You need to run a plagiarism check for all the reports to submit and share the result as well.)
+        <ol>
+            <li>[05] (Max. 2 slides) Project Proposal - 5 mins</li>
+            <ul>
+                <li>Title, dataset, idea, relevant papers, teammate with work division, what to do by Midway, what
+                    baselines to implement, what are the expected results</li>
+            </ul>
+            <li>[10] (Max. 10 slides) Project Midway - 15 mins + 5 mins Q&A</li>
+            <ul>
+                <li>Insightful analysis of 2-3 related papers.</li>
+                <li>Experiments you have done along with results.</li>
+            </ul>
+            <li>[15] (Max. 15 slides) Final Project Presentation - 20 mins + 10 mins for Q&A</li>
+            <ul>
+                <li>Review</li>
+                <li>New and interesting attempts to solve the problem</li>
+                <li>Plan for further work for submission</li>
+            </ul>
+            <li>[10] Paper Submission
+                <ul>
+                    <li>[5] Average conference</li> OR
+                    <li>[10] Top conference - <a
+                            href="https://aideadlin.es/?sub=ML,CV,CG,NLP,RO,SP,DM,AP,KR">Deadlines</a></li>
+                </ul>
+                Conference/Journal list: The final selection of the conference will be in coordination with the
+                instructor.
+        </ol>
+        Submission guidelines:
+        <ul>
+            <li>Clone <a href="https://github.com/smlab-niser/23cs460">GitHub</a></li>
+            <li>index.html</li>
+            <ul>
+                <li>If this is the first time, create a new row in the table, add your members, project title and
+                    initialize the groups slides and reports.</li>
+                <li>You will add/update the links associated with your group.</li>
+            </ul>
+            <li>Projects folder</li>
+            <ul>
+                <li>If this is the first time, create a new folder under projects folder</li>
+                <li>Add/update your files in that folder only. Do not make any changes other than your group/individual
+                    folder</li>
+            </ul>
+            <li>Create a pull request after the changes are done</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Team Members</th>
+                    <th>Title</th>
+                    <th>Proposal</th>
+                    <th>Midterm</th>
+                    <th>Final</th>
+                    <th>Paper</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td>Sagar Prakash Barad</td>
+                    <td rowspan="2">Estimation of Electronic Band Gap Energy Using Machine Learning</td>
+                    <td rowspan="1"><a href="./projects/group1/proposal_group1.pdf">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sajag Kumar</td>
+                    <td rowspan="1">---
+                    </td>
+                    <td rowspan="1"><a href="#">Report</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Report</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Report</a>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">2</td>
+                    <td>Aritra Mukhopadhyay</td>
+                    <td rowspan="2">Spoken Language Recognition from Audio</td>
+                    <td rowspan="1"><a href="./projects/group2/proposal.pdf">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Adhilsha A</td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">3</td>
+                    <td>Aniket Nath</td>
+                    <td rowspan="2">Using Self-supervised pre-trained model fine-tuned with Active Learning algorithm to
+                        find Dual Active Galactic Nuclei in SDSS Dataset.</td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Diptarko Choudhury</td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">4</td>
+                    <td>Debashish Paik</td>
+                    <td rowspan="2">Twitter Sentiment Analysis</td>
+                    <td rowspan="1"><a
+                            href="https://github.com/debashishpaik/23cs460/tree/main/projects/group4/Project_Proposal.pdf">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Rohan Naskar</td>
+                    <td rowspan="1"><a href="#">---</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">6</td>
+                    <td>Priyanshu Parida</td>
+                    <td rowspan="2">Differentiation of Neutron and Gamma Response for EJ-301 Detector at low energy</td>
+                    <td rowspan="1"><a
+                            href="https://github.com/Priyanshu7077/23cs460/blob/c7440105f24ee2eaaf29bb5fce7a2fa4a9ad19ed/projects/group6/Group6_Proposal.pptx">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Nehal Khosla</td>
+                    <td rowspan="1"><a href="#">---</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">7</td>
+                    <td>Arshia Anjum</td>
+                    <td rowspan="2">Infer accreted mass fractions of central galaxies
+                    </td>
+                    <td rowspan="1"><a
+                            href="https://github.com/smlab-niser/23cs460/tree/main/projects/group7/Project_Proposal-1.pdf">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Sibabrata Biswal</td>
+                    <td rowspan="1"><a href="#">---</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">8</td>
+                    <td>Dibya Bharati Pradhan</td>
+                    <td rowspan="2">Exoplanetary surface composition prediction using ML</td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Oommen P Jose</td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">9</td>
+                    <td>Ayush Singhal</td>
+                    <td rowspan="2">Analysing Exoplanetary Atmospheres using ML</td>
+                    <td rowspan="1"><a href="projects/group 9/Project Proposal _2.pdf">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Gaurav Shukla</td>
+                    <td rowspan="1"><a href="#">---</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">10</td>
+                    <td>Akankshya Nayak</td>
+                    <td rowspan="2">Tax Crime prediction using ML</td>
+                    <td rowspan="1"><a href="projects/group10/Group10_projectproposal_ml.pdf">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Soumya Dasgupta</td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">11</td>
+                    <td> Chandan Kumar Sahu </td>
+                    <td rowspan="2">Studying the interior evolution of rocky exoplanets using machine learning</td>
+                    <td rowspan="1"><a href="projects/group11/proposal.pdf">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td> Maitrey Sharma </td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">12</td>
+                    <td> Anna Binoy </td>
+                    <td rowspan="2">Undecided</td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Sumegha M.T.</td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">13</td>
+                    <td>Rahul Vishwakarma </td>
+                    <td rowspan="2">Indoor localization using WiFi RSSI fingerprinting</td>
+                    <td rowspan="1"><a href="projects/group13/proposal_slide.pdf">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Jyotish Kumar J.</td>
+                    <td rowspan="1"><a href="#">---</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">13</td>
+                    <td> Jyothish Kumar J </td>
+                    <td rowspan="2">Indoor Localization using WiFi RSSI fingerprinting </td>
+                    <td rowspan="1"><a
+                            href="https://docs.google.com/presentation/d/e/2PACX-1vRYj8nWl0HdoML7zA1y-DHlz45s4ZaT2haPZGjtWsnRxN2jkLN75Dbsf7aVpZmtR-zMaYRPevA1IgaF/pub?start=false&loop=false&delayms=3000">Proposal</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Rahul Vishwakarma</td>
+                    <td rowspan="1"><a href="#">---</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">14</td>
+                    <td> Arpan Maity </td>
+                    <td rowspan="2">Gradient Boosted Decision Trees and their application in improvising identification
+                        of decay of Higgs Bosons into pair of electrons</td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td> Krishna Kant Parida </td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">15</td>
+                    <td> Anuleho </td>
+                    <td rowspan="2">Undecided</td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td> Abhijit </td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">16</td>
+                    <td> Ratul Das </td>
+                    <td rowspan="2">Shot estimation in Tennis</td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Mihir Chandra</td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">17</td>
+                    <td>Ritadip Bharati</td>
+                    <td rowspan="2">ML in Fashion</td>
+                    <td rowspan="1"><a
+                            href="projects/group17/ProjectProposal.pdf">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sudip Kumar Kar</td>
+                    <td rowspan="1">---
+                    </td>
+                    <td rowspan="1"><a href="#">Report</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Report</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Report</a>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">18</td>
+                    <td>Krishanu Kanta </td>
+                    <td rowspan="2">Classification of Skin Moles in to Benign and Malignant.</td>
+                    <td rowspan="1"><a
+                            href="https://docs.google.com/presentation/d/11yJZ5AjzXj8X1j_-pfZaPqonL_373RycuKTPJ0tjubo/edit?usp=sharing">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sagnik Rout</td>
+                    <td rowspan="1"><a href="#">---</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Report</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Report</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Report</a>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">19</td>
+                    <td> Sunaina </td>
+                    <td rowspan="2">Predicting breeding sites of Desert Locust through environmental parameters</td>
+                    <td rowspan="1"><a
+                            href="https://docs.google.com/presentation/d/1tes31taxrBthMDypH-qTibr0UbLuj5KLhYZO7numNWs/edit?usp=sharing">Slide</a>
+                    </td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Bibhu</td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">20</td>
+                    <td> Fida Salim </td>
+                    <td rowspan="2">Retrieving Pressure-Temperature and Water Vapour Profiles in Earth’s Atmosphere from INSAT 3DR data using Machine Learning</td>
+                    <td rowspan="1"><a href="projects/group20/group20_project_proposal.pdf">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Soumik Bhattacharyya</td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td rowspan="2">21</td>
+                    <td> Deependra Singh </td>
+                    <td rowspan="2">Retinal Fundus Multi-Disease Image Classification or Bollywood Movie success
+                        prediction model</td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                    <td rowspan="1"><a href="#">Slide</a></td>
+                </tr>
+                <tr>
+                    <td>Saksham Agarwal</td>
+                    <td rowspan="1">---</td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                    <td rowspan="1"><a href="#">Report</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <h3>Books</h3>
+        Some recommended books on Machine learning.
+        <ul>
+            <li>The Elements of Statistical Learning <a href="https://web.stanford.edu/~hastie/ElemStatLearn/">Link</a>
+            </li>
+            <li>Mathematics for Machine Learning <a href="https://mml-book.github.io">Link</a></li>
+            <li>Introduction to Machine Learning with Python <a
+                    href="https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/">Link</a></li>
+            <li>A course in Machine Learning <a href="http://ciml.info">Link</a></li>
+        </ul>
+        <hr />
+
+        <h3>Academic Integrity</h3>
+        Any plagiarism, copying, allowing copying, unpermitted aid will lead to 'zero' in the assignment/exam/project.
+        <hr />
+
+        <h3>Past Courses</h3>
+        <ul>
+            <li><a href="https://www.niser.ac.in/~smishra/teach/cs460/2021/">2021 CS460/660 - Machine Learning</a></li>
+            <li><a href="https://www.niser.ac.in/~smishra/teach/cs460/2020/">2020 CS460/660 - Machine Learning</a></li>
+        </ul>
+        <br> <br>
+        <div class="navbar">
+            <a href="https://www.niser.ac.in/~smishra/index.html">Home</a>
+            <a href="https://www.niser.ac.in/~smishra/people.html">People</a>
+            <a href="https://www.niser.ac.in/~smishra/research.html">Research</a>
+            <a href="https://www.niser.ac.in/~smishra/teaching.html" class="active">Teaching</a>
+            <a href="https://www.niser.ac.in/~smishra/events.html">Events</a>
+        </div>
+    </div>
+</body>
+
+</html>
